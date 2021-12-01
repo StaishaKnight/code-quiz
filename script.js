@@ -19,7 +19,7 @@ function displayanswer(){}
 
 //submit and show results//
 
-//all questions are answered or time reaches //
+//all questions are answered or time reaches zero//
 
 //game over//
 

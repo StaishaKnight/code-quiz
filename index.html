@@ -8,7 +8,16 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="wrapper">
+
+    <!-- timer -->
+  <div class="timer">
+   <span class="display-time">
+     60
+   </span> 
+  </div>  
+
+  <div class="wrapper start-screen">
+
       <header>
         <h1>... Quiz Challenge</h1>
       </header>
@@ -27,11 +36,26 @@
     <div class="card-footer">
     <p> Click the buton below to start quiz!</p>
     <button id="start-quiz" class="btn"></button>
- </div>
-
-
-      </div>
     </div>
+   </div>
+</div>
+<!-- questions -->
+<div id="questions" class="hide">
+  <h2 id="question-title"></h2>
+  <div id="choices" class="choices"></div>
+</div>
+
+<!-- End Screen -->
+<div id="endscreen" class="hide">
+  <h2>All done!</h2>
+  <p>Your final score is <span id="finalscore"></span>.</p>
+  <p>
+    Enter initials: <input type="text" id="initials" max="3" />
+    <button id="submit">Submit</button>
+  </p>
+</div>
+
+     
     <script src="script.js"></script>
   </body>
 </html>
